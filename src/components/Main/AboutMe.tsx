@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react"
 import gsap from "gsap"
 import useIsMobile from "../../customHook/useIsMobile"
 
-import portrait from "/src/assets/Portrait2.jpg"
+import portrait from "/src/assets/Portrait.jpg"
 import cv from "/src/assets/Bruckner-CV.pdf" //need to use the pdf in some way or else netlify removes it on build
 
 export default function() {
@@ -66,8 +66,8 @@ export default function() {
                 <div className="white-1 fs-small" ref={descriptionRef}>
                     <p className="aboutMe__description">I'm a web developer based in Vienna, AT. I love building websites that have oustanding visuals, solve 
                         real-world problems, and that are delightful to use. My specialties include HTML, CSS/SCSS, TypeScript, 
-                        React JS, and animations (GSAP, AnimeJS)</p>
-                    <p className="aboutMe__description">I went to school in HTL Krems with a primary focus on media technology.</p>
+                        React and Svelte.</p>
+                    <p className="aboutMe__description">I went to school in HTL Krems with a primary focus on media technology and currently studying business informatics at WU.</p>
                     <a href={cv} className="aboutMe__btn btn btn--left-to-right-hover">My Resume</a>           
                 </div>
             </div>     
