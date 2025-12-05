@@ -60,7 +60,7 @@ export default function({preview, title, description, technologies, link}: Proje
             </ul>
             <div className="project__container-link">
                 <a className="project__link fs-small white-1 btn btn--bottom-border btn--left-to-right-hover" href={link} target="_blank">Visit Site <span>&rarr;</span></a>
-                <a href="https://github.com/BrucknerDeveloper" target="_blank"><img className="project__github" alt="Github logo" src={githubsvg} /></a>
+                <a href="https://github.com/daniel-bruckner" target="_blank"><img className="project__github" alt="Github logo" src={githubsvg} /></a>
             </div>
         </div>
     </div>
